@@ -11,7 +11,7 @@ class Solution:
         :type val: int
         :rtype: int
         """
-        for i in nums[:]:
+        for i in nums[:]:                        #[:] is to create a new list copying all elements in nums
             if i == val:
                 nums.remove(val)
         return nums, len(nums)
