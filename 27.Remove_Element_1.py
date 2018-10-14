@@ -16,7 +16,7 @@ class Solution:
         while p1 < len(nums):
             if nums[p1] != val:
                 p2 += 1
-                nums[p2], nums[p1] = nums[p1], nums[p2]
+                nums[p2], nums[p1] = nums[p1], nums[p2]    #change the location of p1 and p2
             p1 += 1
         return p2 + 1
 
