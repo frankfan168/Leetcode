@@ -13,8 +13,7 @@ class Solution(object):
         x = str(x)                      
         for i in range(len(x)):         
             if x[i] == x[len(x)-1-i]:   # no matter the length is odd or even
-                continue
-            return False
+                return False
         return True
 
 if __name__ == '__main__':
